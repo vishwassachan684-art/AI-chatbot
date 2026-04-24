@@ -2,11 +2,9 @@
 
 A beautiful, responsive, and intelligent medical appointment booking system powered by a free Conversational AI.
 
-[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/USERNAME/REPOSITORY)
-[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/USERNAME/REPOSITORY)
+[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/vishwassachan684-art/AI-chatbot)
+[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/vishwassachan684-art/AI-chatbot)
 
-> [!IMPORTANT]
-> **Replace `USERNAME/REPOSITORY`** in the links above with your actual GitHub username and repository name to enable the interactive buttons!
 
 ---
 
