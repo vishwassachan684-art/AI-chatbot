@@ -2,9 +2,6 @@
 
 An intelligent and responsive **AI-powered medical appointment booking chatbot** built using Next.js and a free OpenAI-compatible API.
 
-[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/vishwassachan684-art/AI-chatbot)
-[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/vishwassachan684-art/AI-chatbot)
-
 ---
 
 ## ✨ Features
@@ -17,7 +14,7 @@ An intelligent and responsive **AI-powered medical appointment booking chatbot**
 
 ---
 
-## 🚀 Run Locally (Recommended)
+## 🚀 Run Locally (Step-by-Step)
 
 ### 1️⃣ Clone the Repository
 
@@ -26,11 +23,15 @@ git clone https://github.com/vishwassachan684-art/AI-chatbot.git
 cd AI-chatbot
 ```
 
+---
+
 ### 2️⃣ Install Dependencies
 
 ```bash
 npm install
 ```
+
+---
 
 ### 3️⃣ Start Development Server
 
@@ -38,18 +39,15 @@ npm install
 npm run dev
 ```
 
-### 4️⃣ Open in Browser
-
-http://localhost:3000
-
 ---
 
-## ⚡ Quick Start (No Setup)
+### 4️⃣ Open in Browser
 
-You can also run this project instantly in your browser:
+Go to:
 
-* Click **Open in StackBlitz** (runs instantly)
-* Or use **GitHub Codespaces**
+```
+http://localhost:3000
+```
 
 ---
 
@@ -69,7 +67,7 @@ This chatbot uses **function/tool calling** to simulate a real booking system:
 * `getAvailableSlots` → Fetches available appointment times
 * `bookAppointment` → Books a slot based on user input
 
-Modify behavior here:
+You can customize AI behavior in:
 
 ```
 src/app/api/chat/route.ts
@@ -77,34 +75,34 @@ src/app/api/chat/route.ts
 
 ---
 
-## 📂 Project Structure
+## 📂 Project Structure (Important Files)
 
 ```
 src/
  ├── app/
- │    ├── api/chat/route.ts
- │    ├── page.tsx
+ │    ├── api/chat/route.ts   # AI logic & API handler
+ │    ├── page.tsx            # Main UI
  │
- ├── components/
- ├── styles/
+ ├── components/              # UI components
+ ├── styles/                  # CSS files
 ```
 
 ---
 
 ## ⚠️ Notes
 
-* No API key required
-* Requires Node.js v18+
-* Auto-switches port if 3000 is busy
+* No API key is required to run this project
+* Make sure Node.js (v18+) is installed
+* If port 3000 is busy, Next.js will automatically switch ports
 
 ---
 
 ## 🤝 Contributing
 
-Feel free to fork and improve:
+Feel free to fork this project and improve it:
 
-* Add database
-* Improve UI
+* Add database integration
+* Improve UI/UX
 * Add authentication
 
 ---
@@ -112,8 +110,8 @@ Feel free to fork and improve:
 ## 📌 Author
 
 **Vishwas Sachan**
-https://github.com/vishwassachan684-art
+GitHub: https://github.com/vishwassachan684-art
 
 ---
 
-💡 *Built for learning and real-world AI experimentation.*
+💡 *Built for learning, experimenting, and building real-world AI applications.*
